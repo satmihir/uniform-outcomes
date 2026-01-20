@@ -4,6 +4,8 @@
 
 This repo shows a simple idea: *random placement isn’t the problem — memorylessness is.*  We keep randomness, but softly bias it against **residual imbalance**, so outcomes stay close to uniform even with multiple schedulers and stale local state while avoiding any pathologically correlated behavior such as focus-firing on empty bins.
 
+For a deep dive, see my Medium post about this: [link](https://medium.com/@mihsathe/load-balancing-revenge-of-the-random-placements-738995dec4f9)
+
 ---
 
 ### IID random vs uniform-outcomes (same x-axis)
